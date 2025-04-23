@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base64 Encoder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Base64 Encoder</h1>
+        <form id="encoder-form">
+            <label for="client-id">Client ID:</label>
+            <input type="text" id="client-id" required>
+            
+            <label for="client-secret">Client Secret:</label>
+            <input type="text" id="client-secret" required>
+            
+            <button type="button" id="encode-button">Encode</button>
+        </form>
+        <h2>Encoded Result:</h2>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
